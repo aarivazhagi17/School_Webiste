@@ -21,7 +21,7 @@ function Home() {
         <div style={{textAlign: 'center', padding: '40px'}}>
           <img data-aos="fade-down" className='school-image' src={School6} alt="School6"/> <br /> <br />
           <h1 data-aos="fade-up">Welcome to Star Kids</h1> <br />
-          <h3 data-aos="fade-up">Join us and watch your child grow!</h3> <br />
+          <h5 data-aos="fade-up">Join us and watch your child grow!</h5> <br />
 
           <button data-aos="fade-up"
         className="ViewMore"
