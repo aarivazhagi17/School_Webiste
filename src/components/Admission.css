@@ -37,11 +37,11 @@ p{
     font-family:"Roboto", sans-serif;
 }
 .LKG{
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    margin-left: 80px;
+    width: 100%;
+    height: auto; 
+    max-width: 250px;
+    display: block;
+    margin: auto;
 }
 @media (max-width: 600px) {
     .admission-container {

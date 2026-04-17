@@ -22,7 +22,7 @@ function Admission() {
     <div>
       <section id="admission">
         <h1 style={{textAlign:"center", marginTop:"25px"}}>Admission</h1> <br />
-        <div className='admission-container'>
+        <div className='container-fluid px-3 admission-container'>
           <div className='admission'>
             <h2 data-aos="zoom-in">UKG</h2>
             <img data-aos="zoom-in" className='LKG' src={UKG} alt="UKG Students" />

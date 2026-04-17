@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .Navbar {
+  width: 100%;
   background: linear-gradient(45deg, #ff6b6b, #ff9f43);
   color: white;
   position: sticky;

@@ -35,8 +35,8 @@ function About() {
   return (
     <div>
       <section id="about" className="py-5">
-
-        <div className='row g-5 my-5 align-items-center'>
+{/* About Section first div doubt */}
+        <div className='row container-fluid px-3 g-5 my-5 align-items-center'>
           <h1  data-aos="fade-right" style={{ marginLeft: "50px", marginTop:"0px"}}>About Us</h1>
           <div className='col-lg-6 col-md-12'>
             <p data-aos="fade-left" className="lead">
