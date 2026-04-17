@@ -36,7 +36,7 @@ function About() {
     <div>
       <section id="about" className="py-5">
 {/* About Section first div doubt */}
-        <div className='row container-fluid px-3 g-5 my-5 align-items-center'>
+        <div className='row container-fluid px-3 overflow-hidden g-5 my-5 align-items-center'>
           <h1  data-aos="fade-right" style={{ marginLeft: "50px", marginTop:"0px"}}>About Us</h1>
           <div className='col-lg-6 col-md-12'>
             <p data-aos="fade-left" className="lead">
@@ -57,7 +57,7 @@ function About() {
           </div>
         </div>
 
-        <div className='row g-5 my-5 align-items-center'>
+        <div className='row g-4 my-4 align-items-center mx-0'>
           <h1 data-aos="fade-down" style={{ textAlign: "center" }}>Fun Learning</h1>
           <div className='col-lg-4 col-md-12'>
             <img data-aos="zoom-in" className='craft' src={CraftActivities} alt="" />
@@ -83,7 +83,7 @@ function About() {
 
 {/* <div>Daily Avtivity  1 </div> */}
 
-         <div className='row g-5 my-5 align-items-center'>
+         <div className='row g-4 my-4 align-items-center mx-0'>
           <h1 data-aos="fade-down" style={{ textAlign: "center" }}>Daily Activities</h1>
           <div className='col-lg-5 col-md-12'>
             <img data-aos="zoom-in" className='Yoga' src={Yoga} alt="" />
@@ -96,7 +96,7 @@ function About() {
           </div>
 
 {/* <div> 2 </div> */}
-          <div className='row g-5 my-5 align-items-center'>
+          <div className='row g-4 my-4 align-items-center mx-0'>
 
           <div className='col-lg-6' col-md-12> 
             <p className='items-header' data-aos="zoom-in" style={{textAlign:"center", fontSize:"20px"}}>Teaching</p>
@@ -111,7 +111,7 @@ function About() {
           </div>
 
           {/* <div> 3 </div> */}
-          <div className='row g-5 my-5 align-items-center'>
+          <div className='row g-4 my-4 align-items-center mx-0'>
 
             <div className='col-lg-5 col-md-12'>
             <img data-aos="zoom-in" className='Yoga' src={Drawing} alt="" />
@@ -126,7 +126,7 @@ function About() {
           </div>
 
           {/* <div> 4 </div> */}
-          <div className='row g-5 my-5 align-items-center'>
+          <div className='row g-4 my-4 align-items-center mx-0'>
 
 
           <div className='col-lg-6' col-md-12> 
@@ -142,7 +142,7 @@ function About() {
           </div>
 
           {/* <div> 5 </div> */}
-          <div className='row g-5 my-5 align-items-center'>
+          <div className='row g-4 my-4 align-items-center mx-0'>
 
             <div className='col-lg-5 col-md-12'>
             <img data-aos="zoom-in" className='Yoga' src={Eating} alt="" />
@@ -157,7 +157,7 @@ function About() {
           </div>
 
           {/* <div> 6 </div> */}
-          <div className='row g-5 my-5 align-items-center'>
+          <div className='row g-4 my-4 align-items-center mx-0'>
 
             <div className='col-lg-6' col-md-12> 
             <p className='items-header' data-aos="zoom-in" style={{textAlign:"center", fontSize:"20px"}}>Sleeping</p>
@@ -172,7 +172,7 @@ function About() {
           </div>
 
           {/* <div> 7 </div> */}
-          <div className='row g-5 my-5 align-items-center'>
+          <div className='row g-4 my-4 align-items-center mx-0'>
 
             <div className='col-lg-5 col-md-12'>
             <img data-aos="zoom-in" className='Yoga' src={Happy_Time} alt="" />
