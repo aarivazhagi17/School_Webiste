@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import School from '../image/school.jpg'
+import School from '../image/School.jpg'
 import './Contact.css'
 import Footer from './Footer'
 
