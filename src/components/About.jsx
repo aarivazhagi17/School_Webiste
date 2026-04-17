@@ -86,7 +86,7 @@ function About() {
          <div className='row g-4 my-4 align-items-center mx-0'>
           <h1 data-aos="fade-down" style={{ textAlign: "center" }}>Daily Activities</h1>
           <div className='col-lg-5 col-md-12'>
-            <img data-aos="zoom-in" className='Yoga' src={Yoga} alt="" />
+            <img data-aos="zoom-in" className='activity' src={Yoga} alt="" />
             </div>
             <div className='col-lg-6' col-md-12> 
             <p className='items-header' data-aos="zoom-in" style={{textAlign:"center", fontSize:"20px"}}>Yoga</p>
@@ -105,7 +105,7 @@ function About() {
           </div>
 
           <div className='col-lg-5 col-md-12'>
-            <img data-aos="zoom-in" className='Yoga' src={Teacher_Training} alt="" />
+            <img data-aos="zoom-in" className='activity' src={Teacher_Training} alt="" />
             </div>
             
           </div>
@@ -114,7 +114,7 @@ function About() {
           <div className='row g-4 my-4 align-items-center mx-0'>
 
             <div className='col-lg-5 col-md-12'>
-            <img data-aos="zoom-in" className='Yoga' src={Drawing} alt="" />
+            <img data-aos="zoom-in" className='activity' src={Drawing} alt="" />
             </div>
 
           <div className='col-lg-6' col-md-12> 
@@ -136,7 +136,7 @@ function About() {
           </div>
 
           <div className='col-lg-5 col-md-12'>
-            <img data-aos="zoom-in" className='Yoga' src={Playing} alt="" />
+            <img data-aos="zoom-in" className='activity' src={Playing} alt="" />
             </div>
             
           </div>
@@ -145,7 +145,7 @@ function About() {
           <div className='row g-4 my-4 align-items-center mx-0'>
 
             <div className='col-lg-5 col-md-12'>
-            <img data-aos="zoom-in" className='Yoga' src={Eating} alt="" />
+            <img data-aos="zoom-in" className='activity' src={Eating} alt="" />
             </div>
 
           <div className='col-lg-6' col-md-12> 
@@ -166,7 +166,7 @@ function About() {
           </div>
 
             <div className='col-lg-5 col-md-12'>
-            <img data-aos="zoom-in" className='Yoga' src={Sleeping} alt="" />
+            <img data-aos="zoom-in" className='activity' src={Sleeping} alt="" />
             </div>
             
           </div>
@@ -175,7 +175,7 @@ function About() {
           <div className='row g-4 my-4 align-items-center mx-0'>
 
             <div className='col-lg-5 col-md-12'>
-            <img data-aos="zoom-in" className='Yoga' src={Happy_Time} alt="" />
+            <img data-aos="zoom-in" className='activity' src={Happy_Time} alt="" />
             </div>
 
           <div className='col-lg-6' col-md-12> 
