@@ -20,13 +20,15 @@ h1{
     font-family: "Poppins-light", sans-serif;
 }
 .ViewMore{
-    margin-left: 150px;
     background-color: rgb(235, 133, 16);
-    padding: 10px;
-    border-radius: 10px;
+    padding: 10px 25px;
     border: none;
+    border-radius: 10px;
     color: white;
     font-family: 'Roboto', sans-serif;
+    margin: auto;
+    display: block;
+
 }
 .About-image{
     width: 80%;
