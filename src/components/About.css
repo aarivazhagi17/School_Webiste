@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+   overflow-x: hidden;
+   margin: 0;
+   padding: 0;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+}
+.items-header{
+    font-family: "Poppins-light", sans-serif;
+}
+.ViewMore{
+    margin-left: 150px;
+    background-color: rgb(235, 133, 16);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.About-image{
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.lead{
+     font-family: "Roboto", sans-serif;
+    padding: 20px;
+    color: #0a0a0a;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Common Style */
+.craft,
+.games,
+.quizzes{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 15px auto;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+/* Individual Colors */
+.craft{
+    background-color: orange;
+}
+
+.games{
+    background-color: lightblue;
+}
+
+.quizzes{
+    background-color: lightgreen;
+}
+
+/* Tablet */
+@media screen and (max-width:768px){
+
+    .About-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .lead{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .craft,
+    .games,
+    .quizzes{
+        width: 90px;
+        height: 90px;
+        padding: 20px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width:576px){
+
+    .lead{
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .craft,
+    .games,
+    .quizzes{
+        width: 80px;
+        height: 80px;
+        padding: 18px;
+    }
+}
+/* Activity */
+
+.Yoga{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}

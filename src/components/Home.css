@@ -1,0 +1,20 @@
+.school-image{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.school-image:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.ViewMore{
+    background-color: rgb(235, 133, 16);
+    padding: 10px;
+    margin-right: 150px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
