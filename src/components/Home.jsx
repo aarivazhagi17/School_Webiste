@@ -24,7 +24,7 @@ function Home() {
           <h1 data-aos="fade-up">Welcome to Star Kids</h1> <br />
           <h5 data-aos="fade-up">Join us and watch your child grow!</h5> <br />
 
-          <video  width="500px" height="360px" controls autoPlay
+          <video  width="300px" height="360px" controls autoPlay
   loop data-aos="fade-up">
             <source src={School1} type='video/mp4' />
           </video>
